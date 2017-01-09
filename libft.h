@@ -26,6 +26,7 @@ typedef struct		s_list
 	struct s_list	*next;
 }					t_list;
 
+void				ft_putnbrl(int nb);
 char				**ft_create_tab(int i, int j);
 void				ft_puttab(char **tab, int elem);
 void				ft_puttab_fd(char **tab, int elem, int fd);

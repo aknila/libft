@@ -42,6 +42,7 @@ SRC = ft_atoi.c \
 	  ft_putendl_fd.c \
 	  ft_putnbr.c \
 	  ft_putnbr_fd.c \
+	  ft_putnbrl.c \
 	  ft_putstr.c \
 	  ft_putstr_fd.c \
 	  ft_strcat.c \
@@ -107,6 +108,7 @@ OBJ = ft_atoi.o \
 	  ft_putendl_fd.o \
 	  ft_putnbr.o \
 	  ft_putnbr_fd.o \
+	  ft_putnbrl.o \
 	  ft_putstr.o \
 	  ft_putstr_fd.o \
 	  ft_strcat.o \
@@ -142,7 +144,7 @@ OBJ = ft_atoi.o \
 	  ft_puttab_fd.o \
 	  ft_create_tab.o
 
-CFLAGS = -Wall -Wextra -Werror -I libft.h
+CFLAGS = -Wall -Wextra -Werror libft.h
 
 all: $(NAME)
 
